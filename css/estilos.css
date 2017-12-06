@@ -15,36 +15,41 @@ padding-right: 5px;
 padding-left: 5px;
 }
 #cabecera{
+display: block;
+display: -webkit-block;
 background-color: #5b7989;
 width: 100%;
 border: solid  #5b7989;
 border-radius: 10px 10px 0px 0px;
 margin-top: 10px;
+height: 90px;
+text-align: left;
 }
 .imagen1{
+  width: 90%;
   height: 350px;
 }
 h1{
   float: left;
   width: 75%;
-  position: static;
   top: 10px;
   left: 16px;
+
 }
 nav{
   height: 100%;
 }
-ul{
+.linksup{
+  text-align: justify;
   list-style-type: none;
-  margin: 0;
   overflow: hidden;
   height: 100%;
 }
-li{
+.item{
   float: right;
   display: inline-block;
   margin: 1px 15px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   height: 100%;
   font-size: 1.4em;
 }
@@ -71,9 +76,6 @@ img{
 .contenido{
   text-align: center;
 }
-.imagen1{
-  width: 90%;
-}
 #secundaria{
 display: flex;
 display: -webkit-flex;
@@ -87,4 +89,20 @@ padding: 20px 0;
 width: 50%;
 text-align: center;
 padding: 0 15px;
+}
+#footer{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+}
+.piepagina{
+  width: 25%;
+  text-align: center;
+}
+ul li{
+  list-style: none;
+  text-align: left;
 }
